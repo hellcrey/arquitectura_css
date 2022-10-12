@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+
 }
 
 .cabecera__menu__lista{
@@ -29,5 +30,31 @@
 
 .cabecera__menu__item a:hover{
     text-decoration: underline;
+}
+
+@media screen and (min-width: 0){
+     
+    .cabecera{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .cabecera__logo{
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 720px){
+     
+    .cabecera{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+
+    .cabecera__logo{
+        display: block;
+    }
 }
 

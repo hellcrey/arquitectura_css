@@ -83,3 +83,24 @@ la imagen*/
     font-size: 1.25rem;
 
 }
+
+/*responsivve*/
+@media screen and (min-width: 0){
+     
+ .personas{
+    flex-direction: column;
+    align-items: center;
+ }   
+
+}
+
+
+@media screen and (min-width: 720px){
+.persona{
+ margin-bottom: 0;
+
+}
+.personas{
+    flex-direction: row;
+}
+}

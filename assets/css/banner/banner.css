@@ -8,7 +8,7 @@ width: 100%;
     font-family: Pacifico, cursive;
     font-size: 5.025rem;
     width: 100%;
-    height: calc(100vh - 72px);
+    
 }
 
 .banner__titulo{
@@ -18,9 +18,37 @@ width: 100%;
     position: absolute;
     color: #fdfdfd;
     font-family: Pacifico, cursive;
-    font-size: 5.025rem;
+    
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     width: 100%;
     transform: translate(-50%, -50%);
    
 }
+
+
+@media screen and (min-width: 0){
+     
+    .banner__img{
+      height: calc(100vh - 51px);
+    }
+
+    .banner__titulo{
+        font-size: 3rem;
+    }
+
+}
+
+
+@media screen and (min-width: 720px){
+
+    .banner__img{
+        height: calc(100vh - 72px);
+      }
+
+    .banner__titulo{
+        font-size: 5.025rem;
+    }
+
+}
+
+

@@ -1,19 +1,53 @@
 .sobre{
     text-align: center;
-    padding: 2.5rem;
+ 
 }
 
 .sobre__titulo{
 
     color: rgba(156, 5, 27, 0.867);
     font-family: Pacifico, cursive;
-    font-size: 3.1875rem;
+    
     
 
 }
 
 .sobre__parrafo{
    color: #595959;
-    font-size: 1.75rem;
+   
     font-weight: 100;
+}
+
+/*responsivve*/
+@media screen and (min-width: 0){
+     
+    .sobre{
+      padding: 2.5rem 1rem;
+    }
+
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+
+    .sobre__parrafo{
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media screen and (min-width: 720px){
+
+    .sobre{
+        padding: 2.5rem;
+      }
+
+    .sobre__titulo{
+        font-size: 3.1875rem;
+    }
+
+    .sobre__parrafo{
+        font-size: 1.75rem;
+    }
+
 }

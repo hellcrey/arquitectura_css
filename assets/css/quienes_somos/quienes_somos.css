@@ -1,0 +1,85 @@
+.quienes-somos{
+text-align: center;
+padding: 5rem;
+}
+
+.quienes-somos__titulo{
+    margin-bottom: 1rem;
+    color: #8d0606;
+    font-size: 3.1875rem;
+    font-family: pacifico,cursive;
+   
+}
+
+.quienes-somos__descripcion{
+    font-weight: 180;
+    font-size: 1.75rem;
+    color: #595959;
+
+}
+
+.personas{
+
+    display: flex;
+    padding-top:3rem ;
+    justify-content: space-between;
+
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.persona__imagen{
+    background: red;
+    height: 300px;
+    width: 300px;
+
+
+}
+
+.persona__imagen--roberta{
+
+    background: url(../../img/personas/roberta.jpg);
+
+}
+
+.persona__imagen--marcela{
+
+    background: url(../../img/personas/marcela.jpg);
+
+}
+.persona__imagen--andrea{
+
+    background: url(../../img/personas/andrea.jpg);
+
+}
+
+/* para que se agreguen las propiedades deseada a la imagen se deben hacer despues de agregar
+la imagen*/
+
+.persona__imagen{
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    width: 300px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.persona__nombre{
+    font-family: pacifico, cursive;
+    color: #8d0606;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.persona__funcion{
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+
+}
